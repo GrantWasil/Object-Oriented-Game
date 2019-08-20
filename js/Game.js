@@ -19,7 +19,14 @@ class Game {
       new Phrase("luke i am your father"),
       new Phrase("please hire me"),
       new Phrase("dungeons and dragons"),
-      new Phrase("wubaluba dub dub")
+      new Phrase("wubaluba dub dub"),
+      new Phrase("i am iron man"),
+      new Phrase("drop it like its hot"),
+      new Phrase("a piece of cake"),
+      new Phrase("close but no cigar"),
+      new Phrase("cup of joe"),
+      new Phrase("burst your bubble"),
+      new Phrase("off the record")
     ];
     return phrases;
   }
