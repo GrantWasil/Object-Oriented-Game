@@ -90,7 +90,7 @@ class Game {
       message.textContent = "You won! Congrats";
       overlay.className = "win";
     } else {
-      message.textContent = `Nope! It was ${this.activePhrase}`;
+      message.textContent = `Nope! It was "${this.activePhrase.phrase}"`;
       overlay.className = "lose";
     }
     this.reset();
